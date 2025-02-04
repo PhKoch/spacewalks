@@ -1,9 +1,7 @@
 # https://data.nasa.gov/resource/eva.json (with modifications)
-#data_f = open('/home/sarah/Projects/ssi-ukrn-fair-course/data.json', 'r')
-#data_t = open('/home/sarah/Projects/ssi-ukrn-fair-course/data.csv','w')
-data_f = open('/home/philippk/Git/FAIRytail/astronaut-data-analysis-not-so-fair-main/data.json', 'r')
-data_t = open('/home/philippk/Git/FAIRytail/astronaut-data-analysis-not-so-fair-main/data.csv','w')
-g_file = 'myplot.png'
+data_f = open('./eva-data.json', 'r')
+data_t = open('./eva-data.csv','w')
+g_file = './cumulative_ev_graph.png'
 
 fieldnames = ("EVA #", "Country", "Crew    ", "Vehicle", "Date", "Duration", "Purpose")
 
