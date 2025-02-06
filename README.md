@@ -1,5 +1,7 @@
 [![CI](https://github.com/PhKoch/spacewalks/actions/workflows/main.yml/badge.svg)](https://github.com/PhKoch/spacewalks/actions/workflows/main.yml)
 
+Documentation: https://PhKoch.github.io/spacewalks/
+
 # Spacewalks
 
 ## Overview
