@@ -17,6 +17,7 @@ def test_text_to_duration_integer():
     ("Valentina Tereshkova;", 1),
     ("Judith Resnik; Sally Ride;", 2),
     ("Judith Resnik; Sally Ride;Buzz Aldrin;", 3),
+    ("Judith Resnik; Sally Ride;Buzz Aldrin;Buzz Aldrin;", 4),
 ])
 def test_calculate_crew_size(input_value, expected_result):
     """
